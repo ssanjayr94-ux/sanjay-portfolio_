@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sanjay R's personal portfolio showcasing web development skills and projects.">
+  <title>Sanjay R | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">SR<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">SOFTWARE / IT STUDENT</p>
+      <h1>Hi, I'm <span>Sanjay R.</span></h1>
+      <h2>Aspiring Web Developer</h2>
+      <p class="intro">
+        I create clean, responsive and interactive websites
+        using HTML, CSS and JavaScript. I enjoy learning new
+        technologies and turning ideas into digital experiences.
+      </p>
+      <div class="actions">
+        <a href="#projects" class="btn primary">Explore My Work ↗</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+      <div class="hero-tags">
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+      <p>
+        I am a student and aspiring software professional with
+        an interest in web development. I am building my skills
+        in front-end technologies and learning how to create
+        accessible, user-friendly websites. My goal is to keep
+        improving through practical projects and collaboration.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>My <span>Skills</span></h2>
+      <div class="cards">
+        <article class="card">
+          <h3>HTML5</h3>
+          <p>Building structured, semantic web pages.</p>
+        </article>
+        <article class="card">
+          <h3>CSS3</h3>
+          <p>Creating responsive layouts and modern designs.</p>
+        </article>
+        <article class="card">
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and dynamic behavior.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>My <span>Projects</span></h2>
+      <div class="cards">
+        <article class="card project">
+          <p class="project-number">PROJECT 01</p>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive website presenting my skills,
+             background and work.</p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+        </article>
+        <article class="card project">
+          <p class="project-number">PROJECT 02</p>
+          <h3>To-Do List App</h3>
+          <p>A task management interface for organizing
+             everyday activities.</p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+        </article>
+        <article class="card project">
+          <p class="project-number">PROJECT 03</p>
+          <h3>Weather Dashboard</h3>
+          <p>A weather interface to practice API integration
+             and dynamic page updates.</p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+        </article>
+      </div>
+      <p class="note">
+        These are suggested projects. Replace them with your
+        actual work as you complete each one.
+      </p>
+    </section>
+
+    <section id="education" class="section">
+      <p class="eyebrow">MY BACKGROUND</p>
+      <h2><span>Education</span></h2>
+      <article class="card">
+        <h3>College Student</h3>
+        <p>Course: Add your degree or diploma</p>
+        <p>Institution: Add your college name</p>
+        <p>Graduation: Add your expected year</p>
+      </article>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have a project in <span>mind?</span></h2>
+      <p>I'm interested in learning, collaborating and
+         exploring opportunities in software development.</p>
+      <a class="btn primary"
+         href="mailto:your-email@example.com">Email Me ↗</a>
+      <div class="socials">
+        <a href="https://github.com/" target="_blank"
+           rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/" target="_blank"
+           rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Sanjay R. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
